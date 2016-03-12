@@ -1,6 +1,6 @@
 # Site settings
-title: rage's Blog
-SEOTitle: rage's Blog | My Blog
+title: rage Blog
+SEOTitle: rage Blog
 header-img: img/kahra1.jpg
 email: kele1313@126.com
 description: "love what you do"
@@ -43,9 +43,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: kele1313@126.com
+duoshuo_username: kele1313
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 

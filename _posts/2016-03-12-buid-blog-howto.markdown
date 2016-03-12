@@ -36,14 +36,13 @@ tags:
 
 - [x] *add ruby executables to your path*
 
- - [x] this is a complete item
 
 假设路径全都默认到c盘根目录
 命令行下敲：
 
 ```cmd
-cd c:\rubydevkit                      //devkit解压后的位置
-ruby dk.rb init                       //ruby装好后就可以在命令行下执行了
+cd c:\rubydevkit //devkit解压后的位置
+ruby dk.rb init //ruby装好后就可以在命令行下执行了
 ruby dk.rb install                    
 ```
 
@@ -67,8 +66,8 @@ gem install jekyll
 然后cd到网站目录，输入 jekyll build会生成静态页面
 
 ```cmd
-jekyll build                         //生成静态页面
-jekyll serve                         //开启http服务，访问127.0.0.1:4000可以预览你的页面
+jekyll build //生成静态页面
+jekyll serve //开启http服务，访问127.0.0.1:4000可以预览你的页面
 ```
 推荐两个不错的页面，都是开源的，可以拿来自己修改
 [hux](https://github.com/Huxpro/huxpro.github.io) | [davidtmiller](https://github.com/davidtmiller/davidtmiller-website)
