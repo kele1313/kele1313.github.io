@@ -32,7 +32,12 @@ tags:
 
 [下载devkit](http://rubyinstaller.org/downloads/)，同样要区分处理器位数
 
-**ruby安装时注意勾选**  *add ruby executables to your path*
+**ruby安装时注意勾选**  
+
+- [x] *add ruby executables to your path*
+
+ - [x] this is a complete item
+
 假设路径全都默认到c盘根目录
 命令行下敲：
 
@@ -67,5 +72,19 @@ jekyll serve                         //开启http服务，访问127.0.0.1:4000�
 ```
 推荐两个不错的页面，都是开源的，可以拿来自己修改
 [hux](https://github.com/Huxpro/huxpro.github.io) | [davidtmiller](https://github.com/davidtmiller/davidtmiller-website)
+
+## 更新博客
+
+```bash
+$ git clone https://github.com/username/username.github.io.git //首先取得代码
+$ cd ~/username.github.com //定位到你blog的目录下
+$ git pull origin master //以后用来同步远程文件，刚执行完第一条命令可以略过
+$ git status //查看本地自己修改了多少文件
+$ git add . //添加远程不存在的git文件
+$ git commit * -m "what I want told to someone"//添加到工作区并且做说明
+$ git reset --hard 哈希值//如果不小心commit了一个不需要commit的文件，可以对其进行撤销。哈希值通过git log 命令获取
+$ git log //上条命令中的哈希值通过此命令获取
+$ git push origin master //一切就绪后更新到远程服务器上
+```
 深入了解可以参考https://jekyllrb.com/docs/home/
 
