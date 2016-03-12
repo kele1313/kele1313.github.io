@@ -2,7 +2,7 @@
 layout:     post
 title:      "首先记录一下博客环境的搭建"
 subtitle:   "第一次使用jekyll和markdown写博客"
-date:       2016-03-12 15:00:00
+date:       2016-03-11 15:00:00
 author:     "rage"
 header-img: "img/kahra2.jpg"
 tags:
