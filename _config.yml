@@ -62,7 +62,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "关注互联网，关注生活"
-sidebar-avatar: /img/rexue-head.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/rexue-head.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
